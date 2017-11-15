@@ -51,13 +51,6 @@
               oncommand="googlecalendartab.onMenuItemCommand(event);"/>
   </menupopup>
 
-  <box id="tabmail-buttons">
-    <toolbarbutton id="google-calendar-tabbutton"
-                   label="&googlecalendartab.label;"
-                   tooltiptext="&googlecalendartab.tooltip;"
-                   oncommand="googlecalendartab.openCalendarTab(event)"/>
-  </box>
-
   <toolbarpalette id="MailToolbarPalette">
     <toolbarbutton id="google-calendar-toolbarbutton"
                    class="toolbarbutton-1 chromeclass-toolbar-additional"
